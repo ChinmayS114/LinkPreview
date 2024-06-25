@@ -21,7 +21,7 @@ public class HTML {
             in.close();
             return response.toString();
         } catch (Exception e) {
-           
+
             return null;
         }
     }

@@ -6,7 +6,7 @@ public class LinkPreviewResponse {
     private String imageUrl;
     private String domain;
 
-    
+
 
     public LinkPreviewResponse() {
     }

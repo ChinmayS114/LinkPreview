@@ -2,12 +2,13 @@ package com.example.linkpreview.service;
 
 import com.example.linkpreview.model.LinkPreviewResponse;
 
+
 public class AggregatedResponse {
-    private final LinkPreviewResponse twitterResponse;
+    private final TwitterPreviewResponse twitterResponse;
     private final LinkPreviewResponse facebookResponse;
     private final LinkPreviewResponse linkedinResponse;
 
-    public AggregatedResponse(LinkPreviewResponse twitterResponse,
+    public AggregatedResponse(TwitterPreviewResponse twitterResponse,
                                          LinkPreviewResponse facebookResponse,
                                          LinkPreviewResponse linkedinResponse) {
         this.twitterResponse = twitterResponse;
@@ -15,7 +16,7 @@ public class AggregatedResponse {
         this.linkedinResponse = linkedinResponse;
     }
 
-    public LinkPreviewResponse getTwitterResponse() {
+    public TwitterPreviewResponse getTwitterResponse() {
         return twitterResponse;
     }
 
